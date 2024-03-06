@@ -1,0 +1,20 @@
+{
+	"name": "testTask_job",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/korzhovivan/testTask_job.git",
+	"author": "Ivan Korzhov",
+	"license": "MIT",
+	"scripts": {
+		"server": "nodemon server/server.js",
+		"dev": ""
+	},
+	"dependencies": {
+		"body-parser": "^1.20.2",
+		"dotenv": "^16.4.5",
+		"express": "^4.18.3",
+		"mongoose": "^8.2.1",
+		"nodemon": "^3.1.0"
+	},
+	"type": "module"
+}
