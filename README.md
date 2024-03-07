@@ -5,5 +5,5 @@
 ## Client
 1) yarn
 2) yarn start
-
+![alt text](https://github.com/korzhovivan/testTask_job/blob/task/image.png?raw=true)
    
