@@ -8,7 +8,6 @@ import {
 import editItem from '../queries/editItem.js'
 
 export default function (req, res) {
-	console.log('edit')
 	try {
 		const { title, text } = req.body
 		const { id } = req.params

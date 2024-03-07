@@ -1,0 +1,38 @@
+{
+	"name": "testTask_job",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/korzhovivan/testTask_job.git",
+	"author": "Ivan Korzhov",
+	"license": "MIT",
+	"scripts": {
+		"server": "nodemon server.js",
+		"dev": "react-scripts start"
+	},
+	"dependencies": {
+		"body-parser": "^1.20.2",
+		"compression": "^1.7.4",
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.5",
+		"express": "^4.18.3",
+		"mongoose": "^8.2.1",
+		"nodemon": "^3.1.0",
+		"ramda": "^0.29.1",
+		"react-dom": "^18.2.0",
+		"superagent": "^8.1.2",
+		"superagent-prefix": "^0.0.2"
+	},
+	"type": "module",
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}

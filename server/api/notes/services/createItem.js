@@ -8,11 +8,8 @@ import createItem from '../queries/createItem.js'
 
 export default function (req, res) {
 	try {
-		console.log(req.body, 'req.body')
 		const { title, text } = req.body
-		console.log(title, text)
 		const now = Date.now()
-
 		createItem({ title, text, createdAt: now, updatedAt: now })
 			.then(item => {
 				res.status(OKAY_STATUS_CODE).send(item)
